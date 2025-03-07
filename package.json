@@ -2,7 +2,7 @@
   "name": "recipes-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/recipes-app/#",
+  "homepage": "https://robertportfolio.github.io/recipes-app/#/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.0",
     "@tanstack/react-query": "^5.67.1",
