@@ -42,7 +42,7 @@ const selectedRecipesSlice = createSlice({
             state.items = state.items.filter((item) => item.idMeal !== action.payload);
         },
     },
-});
+}); 
   
 export const { addToSelected, removeFromSelected } = selectedRecipesSlice.actions;
 export default selectedRecipesSlice.reducer;

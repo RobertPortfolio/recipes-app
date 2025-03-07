@@ -60,7 +60,12 @@ const AllRecipesPage: FC = () => {
                     style={{ width: '400px' }}
                 />
                 <div>
-                    <Link to="/selected-recipes" className="btn btn-primary">To cart {items.length!==0 && `(${items.length})`}</Link>
+                <Link 
+                    to="/selected-recipes" 
+                    className="btn btn-primary fs-5 fw-bold px-4 py-3 shadow-lg"
+                >
+                    🛒 To cart {items.length !== 0 && `(${items.length})`}
+                </Link>
                 </div>
             </div>
 
